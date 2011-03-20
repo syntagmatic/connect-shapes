@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>connect shapes</title>
+  <link rel="stylesheet" href="graffle.css" type="text/css" media="screen">
+	<script src="js/jquery-1.5.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/raphael.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/underscore.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/backbone.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/backbone-localstorage.js" type="text/javascript" charset="utf-8"></script>
+  <script src="model.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+  <div id="dashboard" style="float:left;width:200px;margin:10px;">
+    <a href="#" class="create">Create</a><br/>
+    <div class="props">
+      <script type="text/template" id="input-element">
+        <%= key %>:<br/> <input type="text" name="<%= key %>" value="<%= value %>" /><br/>
+      </script>
+      <script type="text/template" id="slider-element">
+        <%= key %>:<br/> <input type="range"name="<%= key %>" value="<%= value %>" min="0" max="<%= max %>" step="<%= step %>"/><br/>
+      </script>
+    </div>
+  </div>
+  <div id="holder" style="height:400px;width:800px;margin-left:220px;"></div>
+</body>
+</html>
