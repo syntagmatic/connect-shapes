@@ -1,4 +1,10 @@
 Copyright 2010, Kai Chang
 
+Shapes:
 Interactive graph visualization using Raphael and CoffeeScript
 
+Model:
+Interface for Raphael object properties using Backbone
+
+Color: 
+Backbone experiment

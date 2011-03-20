@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  color:#eee;
+  background:#2a2a2a;
+  font-size:14px;
+  font-family:"Century Gothic",Helvetica,Arial,sans-serif;
+}
+#holder {
+  display:table;
+  height:100%;
+  width:100%;
+}
+a {
+  color:#bfb;
+}
