@@ -1,0 +1,61 @@
+body {background:#2a2a2a;font-size:14px;font-family:"Century Gothic",Helvetica,Arial,sans-serif;}
+
+h2, h3 {display:inline;margin:0;padding:0;}
+h1 {text-align:center;color:#ba5;font-size:48px;line-height:1em;font-weight:bold;}
+h2 {text-align:center;color:#ba5;font-size:36px;line-height:1em;padding:18px 3px 6px 3px;text-transform:uppercase;font-weight:normal;font-family:Garamond,Palatino,"Century Gothic";}
+a {color:#ffc464;text-decoration:none;}
+h3 {text-align:center;color:#377;font-size:12px;line-height:1em;font-weight:normal;}
+a:hover {color:#dc3035;}
+
+.yellow {color:#ba5;font-weight:bold;letter-spacing:1px;}
+.green {color:#3c8;font-weight:bold;letter-spacing:1px;}
+.red {color:#c21;font-weight:bold;letter-spacing:1px;}
+.orange {color:#ea3;font-weight:bold;letter-spacing:1px;}
+.gray {color:#888;font-weight:bold;letter-spacing:1px;}
+.teal {color:#378;}
+.blue {color:#4af;}
+
+.color1 {color:#7f304b;font-weight:bold;letter-spacing:1px;}
+.color2 {color:#dc3035;font-weight:bold;letter-spacing:1px;}
+.color3 {color:#ff6c48;font-weight:bold;letter-spacing:1px;}
+.color4 {color:#ffc464;font-weight:bold;letter-spacing:1px;}
+.color5 {color:#aec27c;font-weight:bold;letter-spacing:1px;}
+.color6 {color:#349e97;font-weight:bold;letter-spacing:1px;}
+
+.grayribbon {padding:9px 12px;margin:18px 0 18px 0;}
+
+.center {width:930px;margin:0 auto;position:relative;}
+#header {padding:12px 0;}
+.right {float:right;clear:right;text-align:right;}
+
+#holder, #toolbar-wrapper {
+  width:968px;
+  margin:0 auto;
+  clear:left;
+}
+
+#holder {
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+border: 1px solid #464646;
+display:block;
+margin:0 auto;
+background:#333;
+}
+.toolbar {
+display:block; 
+border: 1px solid #464646; 
+-moz-border-radius: 7px; 
+-webkit-border-radius: 7px;
+width:320px; 
+height:40px;
+float:left;
+margin-top:20px;
+}
+#colors {background:#333;}
+#shapes {background:#333;}
+#commands {background:#666;}
+p {color:#4af;font-size:18px;font-family:"Century Gothic",Arial,Helvetica,sans-serif; padding:12px 0;margin:0;}
+.instruction {border-bottom:1px dashed #366; padding:18px 9px;text-align:left; float:left; clear:left; line-height:1.4em;top:-42px;position:relative;}
+#raphael {padding:0px;font-size:13px;}
+
